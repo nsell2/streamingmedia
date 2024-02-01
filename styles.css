@@ -345,6 +345,10 @@ footer {
         display: inline-block;
         position: relative;
     }
+    li:hover {
+        background-color: #590242;
+        border-radius: 5px;
+    }
     nav li:first-of-type a {
         position: absolute;
         z-index: 1;
@@ -354,6 +358,9 @@ footer {
         font-weight: bold;
         font-size: 2em;
         font-variant: small-caps;
+    }
+    nav li:first-of-type:hover {
+        background-color: #020873;
     }
     label span, input {
         display: none;
